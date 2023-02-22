@@ -11,7 +11,7 @@ const Home = () => {
   return (
     <div className='flex flex-col h-screen justify-between'>
       <Nav className='h-10'></Nav>
-      <div>
+      <div className='mb-auto'>
 
       </div>
       <Footer className='h-10'></Footer>
