@@ -28,7 +28,7 @@ const Nav = () => {
             <a className="text-white mx-3 bg-slate-50 bg-opacity-10">Resources</a>
           </li>
           <li>
-            <a className="text-white mx-3 bg-slate-50 bg-opacity-10" href='/faq'>FAQ</a>
+            <Link className="text-white mx-3 bg-slate-50 bg-opacity-10" href='/faq'>FAQ</Link>
           </li>
           <li tabIndex={0}>
             <a className="text-white mx-3 bg-slate-50 bg-opacity-10">
