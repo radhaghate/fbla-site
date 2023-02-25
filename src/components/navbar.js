@@ -13,26 +13,17 @@ const Nav = () => {
       </div>
       <div className="navbar-start ml-5">
         <Link className="btn btn-ghost normal-case text-xl text-white text-bold" href='/'>
-          The Learning Center
+          Owl Learning Center
         </Link>
       </div>
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1">
           <li>
-            <a className="text-white mx-3 bg-slate-50 bg-opacity-10">About Us</a>
-          </li>
-          <li>
-            <a className="text-white mx-3 bg-slate-50 bg-opacity-10">Learning Paths</a>
-          </li>
-          <li>
-            <a className="text-white mx-3 bg-slate-50 bg-opacity-10">Resources</a>
-          </li>
-          <li>
-            <Link className="text-white mx-3 bg-slate-50 bg-opacity-10" href='/faq'>FAQ</Link>
+            <Link className="text-white mx-3 bg-slate-50 bg-opacity-10" href='/howItWorks'>About Us</Link>
           </li>
           <li tabIndex={0}>
-            <a className="text-white mx-3 bg-slate-50 bg-opacity-10">
-              Subjects
+            <Link className="text-white mx-3 bg-slate-50 bg-opacity-10" href='/learningPaths'>
+              Learning Paths
               <svg
                 className="fill-current"
                 xmlns="http://www.w3.org/2000/svg"
@@ -41,20 +32,26 @@ const Nav = () => {
                 viewBox="0 0 24 24">
                 <path d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z" />
               </svg>
-            </a>
+            </Link>
             <ul className="p-2 bg-sky-800">
               <li>
-                <a className="text-white">Math</a>
+                <Link className="text-white" href='/math&reading'>Math & Reading</Link>
               </li>
               <li>
-                <a className="text-white">Science</a>
+                <Link className="text-white" href='/standardTesting'>Standardized Testing</Link>
               </li>
             </ul>
+          </li>
+          <li>
+            <Link className="text-white mx-3 bg-slate-50 bg-opacity-10" href='/resources'>Stay Informed</Link>
+          </li>
+          <li>
+            <Link className="text-white mx-3 bg-slate-50 bg-opacity-10" href='/contact'>Contact Us</Link>
           </li>
         </ul>
       </div>
       <div className="navbar-end mr-10">
-        <a className="btn text-white hover:text-black hover:bg-white text-l">Get Started</a>
+        <Link className="btn text-white hover:text-black hover:bg-white text-l" href='/getStarted'>Get Started</Link>
       </div>
     </div>
   );

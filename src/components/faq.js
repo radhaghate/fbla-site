@@ -2,16 +2,10 @@ import Head from 'next/head';
 import Image from 'next/image';
 import { Inter } from '@next/font/google';
 import styles from '@/styles/Home.module.css';
-import Nav from '../components/navbar';
-import Footer from '../components/footer';
-
-const inter = Inter({ subsets: ['latin'] });
 
 const FAQ = () => {
   return (
     <div className="flex flex-col h-screen justify-between">
-      <Nav className="h-10"></Nav>
-      <div className='mb-auto'>
         <div className="text-center text-8xl font-bold h-30 my-10">FAQs</div>
         <div
             tabIndex={0}
@@ -38,8 +32,6 @@ const FAQ = () => {
             </div>
           </div>
       </div>
-      <Footer className="h-10"></Footer>
-    </div>
   );
 };
 
