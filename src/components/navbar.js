@@ -21,15 +21,6 @@ const Nav = () => {
           <li>
             <a className="text-white mx-3 bg-slate-50 bg-opacity-10">About Us</a>
           </li>
-          <li>
-            <a className="text-white mx-3 bg-slate-50 bg-opacity-10">Learning Paths</a>
-          </li>
-          <li>
-            <a className="text-white mx-3 bg-slate-50 bg-opacity-10">Resources</a>
-          </li>
-          <li>
-            <Link className="text-white mx-3 bg-slate-50 bg-opacity-10" href='/faq'>FAQ</Link>
-          </li>
           <li tabIndex={0}>
             <Link className="text-white mx-3 bg-slate-50 bg-opacity-10" href='/learningPaths'>
               Learning Paths
