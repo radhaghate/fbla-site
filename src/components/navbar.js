@@ -7,7 +7,7 @@ import Link from 'next/link';
 
 const Nav = () => {
   return (
-    <div className="navbar bg-base-100 py-5 bg-sky-800">
+    <div className="navbar py-10 h-10 bg-sky-800">
       <div className='ml-6'>
         <BsBook style={{ color: "white", fontSize: "2rem" }}></BsBook>
       </div>
@@ -19,7 +19,16 @@ const Nav = () => {
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1">
           <li>
-            <Link className="text-white mx-3 bg-slate-50 bg-opacity-10" href='/howItWorks'>About Us</Link>
+            <a className="text-white mx-3 bg-slate-50 bg-opacity-10">About Us</a>
+          </li>
+          <li>
+            <a className="text-white mx-3 bg-slate-50 bg-opacity-10">Learning Paths</a>
+          </li>
+          <li>
+            <a className="text-white mx-3 bg-slate-50 bg-opacity-10">Resources</a>
+          </li>
+          <li>
+            <Link className="text-white mx-3 bg-slate-50 bg-opacity-10" href='/faq'>FAQ</Link>
           </li>
           <li tabIndex={0}>
             <Link className="text-white mx-3 bg-slate-50 bg-opacity-10" href='/learningPaths'>
