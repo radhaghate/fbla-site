@@ -3,13 +3,14 @@ import Image from 'next/image';
 import { Inter } from '@next/font/google';
 import styles from '@/styles/Home.module.css';
 import { BsBook } from 'react-icons/bs';
+import { FaEarlybirds } from 'react-icons/fa'
 import Link from 'next/link';
 
 const Nav = () => {
   return (
     <div className="navbar py-10 h-10 bg-sky-800">
       <div className='ml-6'>
-        <BsBook style={{ color: "white", fontSize: "2rem" }}></BsBook>
+        <FaEarlybirds style={{ color: "white", fontSize: "2rem" }}></FaEarlybirds>
       </div>
       <div className="navbar-start ml-5">
         <Link className="btn btn-ghost normal-case text-xl text-white text-bold" href='/'>

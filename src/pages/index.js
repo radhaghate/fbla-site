@@ -12,8 +12,25 @@ const Home = () => {
     <div className="flex flex-col h-screen justify-between">
       <Nav></Nav>
       <div className="mb-auto">
+        <div className="relative bg-slate-400 w-full grid grid-cols-8">
+          <div className="absolute left-0 mt-20 text-center text-white bg-sky-900 
+            align-middle h-60 w-3/4 col-start-2 col-end-5 pt-8">
+            <p className='text-5xl'>Owl</p>
+            <p className='text-5xl'>Learning Center</p>
+            <p className='italic mt-6 text-xl'>To brighten your mind and spirit</p>
+          </div>
+          <div className="col-start-4 col-end-9">
+            <Image
+              className="mr-10"
+              src="/home-tutoring.jpeg"
+              alt="tutoring"
+              height={800}
+              width={800}
+            />
+          </div>
+        </div>
 
-      <div className="bg-slate-500 text-2xl text-center text-bold text-white py-10">
+        <div className="bg-slate-500 text-2xl text-center text-bold text-white py-10">
           As of 2022, there was a reported 78% loss in learning, due to Covid-19. That was only one
           year ago.
         </div>
@@ -31,7 +48,8 @@ const Home = () => {
               obstacles.
             </div>
             <div className="w-full flex justify-center">
-              <button className="button p-10 bg-sky-800 mt-12 rounded-xl text-white text-bold text-xl 
+              <button
+                className="button p-10 bg-sky-800 mt-12 rounded-xl text-white text-bold text-xl 
                 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110">
                 Explore Learning Paths
               </button>
@@ -62,6 +80,8 @@ const Home = () => {
         </div>
 
         <div className="text-center text-4xl font-bold h-30 mt-6">Why Us?</div>
+
+        <hr class="border-2 border-white-700 drop-shadow-xl mx-auto w-1/2 mt-5"/>
 
         <div className="grid grid-cols-3 gap-6 content-center p-10">
           <div className="card bg-base-100 shadow-xl">
