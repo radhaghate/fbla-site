@@ -19,7 +19,7 @@ const Nav = () => {
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1">
           <li>
-            <a className="text-white mx-3 bg-slate-50 bg-opacity-10">About Us</a>
+            <Link className="text-white mx-3 bg-slate-50 bg-opacity-10" href="/howItWorks">About Us</Link>
           </li>
           <li tabIndex={0}>
             <Link className="text-white mx-3 bg-slate-50 bg-opacity-10" href='/learningPaths'>
