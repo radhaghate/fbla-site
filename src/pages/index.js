@@ -13,7 +13,7 @@ const inter = Inter({ subsets: ['latin'] });
 const Home = () => {
 
   useEffect(() => {
-    Aos.init({ duration: 1500 })
+    Aos.init({ duration: 1000 })
   })
 
   return (

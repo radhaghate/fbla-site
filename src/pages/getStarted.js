@@ -81,7 +81,7 @@ const Home = () => {
               <button className='btn btn-primary bg-black'>Submit</button>
             </div>
           </div>
-          <div className="mx-auto mb-5 mx-6">
+          <div className="mx-auto mb-5 pr-4 w-full">
             <Calendar></Calendar>
           </div>
         </div>
