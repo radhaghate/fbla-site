@@ -4,10 +4,18 @@ import { Inter } from '@next/font/google';
 import styles from '@/styles/Home.module.css';
 import Nav from '../components/navbar';
 import Footer from '../components/footer';
+import { useEffect } from 'react';
+import Aos from 'aos';
+import "aos/dist/aos.css"
 
 const inter = Inter({ subsets: ['latin'] });
 
 const Home = () => {
+
+  useEffect(() => {
+    Aos.init({ duration: 1500 })
+  })
+
   return (
     <div className="flex flex-col h-screen justify-between">
       <Nav></Nav>
@@ -60,17 +68,17 @@ const Home = () => {
               We get results.
             </div>
             <div className="px-12">
-              <div className="card bg-black text-primary-content my-3">
+              <div data-aos="zoom-in" className="card bg-black text-primary-content my-3">
                 <div className="card-body">
                   <h2 className="card-title">90% improvement in reading</h2>
                 </div>
               </div>
-              <div className="card bg-black text-primary-content my-3">
+              <div data-aos="zoom-in" className="card bg-black text-primary-content my-3">
                 <div className="card-body">
                   <h2 className="card-title">90% improvement in maths</h2>
                 </div>
               </div>
-              <div className="card bg-black text-primary-content my-3">
+              <div data-aos="zoom-in" className="card bg-black text-primary-content my-3">
                 <div className="card-body">
                   <h2 className="card-title">90% improvement in writing</h2>
                 </div>
@@ -84,7 +92,7 @@ const Home = () => {
         <hr class="border-2 border-white-700 drop-shadow-xl mx-auto w-1/2 mt-5"/>
 
         <div className="grid grid-cols-3 gap-6 content-center p-10">
-          <div className="card bg-base-100 shadow-xl">
+          <div data-aos="flip-down" className="card bg-base-100 shadow-xl">
             <figure className="h-25">
               <Image src="/home-understanding.jpg" alt="understanding" height={500} width={500} />
             </figure>
@@ -97,7 +105,7 @@ const Home = () => {
             </div>
           </div>
 
-          <div className="card bg-base-100 shadow-xl">
+          <div data-aos="flip-down" className="card bg-base-100 shadow-xl">
             <figure className="h-25">
               <Image src="/home-pace.webp" alt="pace" height={500} width={500} />
             </figure>
@@ -110,7 +118,7 @@ const Home = () => {
             </div>
           </div>
 
-          <div className="card bg-base-100 shadow-xl">
+          <div data-aos="flip-down" className="card bg-base-100 shadow-xl">
             <figure className="h-25">
               <Image src="/home-fun.png" alt="fun" height={500} width={500} />
             </figure>
