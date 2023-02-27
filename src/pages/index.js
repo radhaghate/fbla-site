@@ -4,18 +4,11 @@ import { Inter } from '@next/font/google';
 import styles from '@/styles/Home.module.css';
 import Nav from '../components/navbar';
 import Footer from '../components/footer';
-import { useEffect } from 'react';
-import Aos from 'aos';
 import "aos/dist/aos.css"
 
 const inter = Inter({ subsets: ['latin'] });
 
 const Home = () => {
-
-  useEffect(() => {
-    Aos.init({ duration: 1000 })
-  })
-
   return (
     <div className="flex flex-col h-screen justify-between">
       <Nav></Nav>

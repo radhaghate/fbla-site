@@ -2,19 +2,12 @@ import Head from 'next/head';
 import Image from 'next/image';
 import { Inter } from '@next/font/google';
 import styles from '@/styles/Home.module.css';
-import { useEffect } from 'react';
-import Aos from 'aos';
 import "aos/dist/aos.css"
 import Nav from '../components/navbar';
 import Footer from '../components/footer';
 import FAQ from '../components/faq';
 
 const Home = () => {
-
-  useEffect(() => {
-    Aos.init({ duration: 1500 })
-  })
-
   return (
     <div className="flex flex-col h-screen justify-between">
       <Nav className="h-10"></Nav>
