@@ -36,7 +36,7 @@ const Nav = () => {
             </Link>
             <ul className="p-2 bg-sky-800">
               <li>
-                <Link className="text-white" href='/math&reading'>Math & Reading</Link>
+                <Link className="text-white" href='/mathAndreading'>Math & Reading</Link>
               </li>
               <li>
                 <Link className="text-white" href='/standardTesting'>Standardized Testing</Link>
