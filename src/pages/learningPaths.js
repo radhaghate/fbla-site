@@ -20,7 +20,7 @@ const Home = () => {
               <div className='flex text-white text-2xl justify-center pt-20'>MATH & READING</div>
               <button className="flex justify-center button p-7 bg-sky-800 mt-12 ml-28 rounded-xl text-white text-bold text-xl 
                 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110">
-                <Link href="/mathAndReading">Learn More</Link>
+                <Link href="/mathAndreading">Learn More</Link>
               </button>
             </div>
           </div>
