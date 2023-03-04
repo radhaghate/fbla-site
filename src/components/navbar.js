@@ -8,7 +8,7 @@ import Link from 'next/link';
 
 const Nav = () => {
   return (
-    <div className="navbar py-10 h-12 bg-[#0a3157]">
+    <div className="navbar py-10 h-12 bg-oxfordblue200">
       <div className='ml-6'>
         <FaEarlybirds style={{ color: "white", fontSize: "2rem" }}></FaEarlybirds>
       </div>

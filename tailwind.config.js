@@ -4,7 +4,16 @@ module.exports = {
     "./src/**/*.{js,ts,jsx,tsx}"
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        oxfordblue200: '#011936',
+        oxfordblue100: '#0A3157',
+        delfblue: '#23395B',
+        uclablue: '#406E8E',
+        eggshell: '#fff4ec',
+        
+      },
+    },
   },
   plugins: [require("daisyui")],
   daisyui: {

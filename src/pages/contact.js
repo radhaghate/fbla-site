@@ -14,10 +14,10 @@ const Home = () => {
   return (
     <div className="flex flex-col h-screen justify-between">
       <Nav></Nav>
-      <div className="mb-auto">
+      <div className="bg-eggshell mb-auto">
         <div className="text-center text-7xl font-bold h-30 my-10">Contact Us!</div>
-        <div className="grid grid-cols-1 mb-12 sm:mx-12 md:grid-cols-2 md:gap-12">
-          <div className="card bg-sky-800 shadow-xl">
+        <div className="text-eggshell grid grid-cols-1 mb-12 sm:mx-12 md:grid-cols-2 md:gap-12">
+          <div className="card bg-oxfordblue100 shadow-xl">
             <div className="card-body items-center text-center">
               <h2 className="card-title text-white text-3xl">More Info</h2>
               <hr className="border-2 border-white-500 drop-shadow-xl w-full m-4"/>
@@ -37,7 +37,7 @@ const Home = () => {
                     <input
                       type="text"
                       placeholder="username@site.com"
-                      className="input input-bordered w-full pr-16"
+                      className="bg-[#ecf5fd] input input-bordered w-full pr-16"
                     />
                     <button className="btn btn-primary absolute top-0 right-0 rounded-l-none">
                       Subscribe
@@ -47,7 +47,7 @@ const Home = () => {
               </div>
             </div>
           </div>
-          <div className="card bg-sky-800 shadow-xl">
+          <div className="card bg-oxfordblue100 shadow-xl">
             <div className="card-body items-center text-center">
               <div className="flex flex-row">
                 <h2 className="card-title text-white text-3xl mr-4">Send Us a Message</h2>
@@ -64,7 +64,7 @@ const Home = () => {
                 <input
                   type="text"
                   placeholder="First name"
-                  className="input input-bordered w-full"
+                  className="bg-[#ecf5fd] input input-bordered w-full"
                 />
                 <label className="label">
                   <span className="label-text text-white">Last name</span>
@@ -72,7 +72,7 @@ const Home = () => {
                 <input
                   type="text"
                   placeholder="Last name"
-                  className="input input-bordered w-full"
+                  className="bg-[#ecf5fd] input input-bordered w-full"
                 />
                 <label className="label">
                   <span className="label-text text-white">Email</span>
@@ -80,18 +80,19 @@ const Home = () => {
                 <input
                   type="text"
                   placeholder="username@site.com"
-                  className="input input-bordered w-full"
+                  className="bg-[#ecf5fd] input input-bordered w-full"
                 />
                 <label className="label">
                   <span className="label-text text-white">Message</span>
                 </label>
                 <textarea
-                  className="textarea textarea-bordered h-24"
+                  className="bg-[#ecf5fd] textarea textarea-bordered h-24"
                   placeholder="Message"></textarea>
                 <br></br>
                 <div className="flex justify-center">
-                  <button className="button btn-active btn-ghost text-white text-bold text-xl h-10 w-2/4">
-                    Send!
+                  <button className="button btn-active btn-[#ecf5fd] text-white text-bold text-xl h-10 w-2/4">
+                    Send! 
+                    {/* CHANGE COLOR OF BUTTON!!! */}
                   </button>
                 </div>
               </div>

@@ -15,16 +15,16 @@ const Home = () => {
       <Nav></Nav>
       <div className="mb-auto">
         
-        <div className="relative bg-[#0a3157] w-full grid grid-cols-8 auto-rows-auto">
+        <div className="relative bg-oxfordblue200 w-full grid grid-cols-8 auto-rows-auto">
             <div className="col-start-1 col-end-8"> 
               <Image className="mt-2" src="/home-top.jpg" alt="tutoring" height={900} width={1740}/>
             </div>
 
-            <div className="absolute right-28 mt-28 text-center text-white bg-sky-900 
-              align-middle h-96 w-4/5 col-start-6 col-end-9 pt-8">
+            <div className="absolute right-28 mt-28 text-center text-white bg-oxfordblue100 
+              align-middle h-96 w-4/5 col-start-6 col-end-9 pt-8 rounded">
               <div className='text-5xl text-center tracking-wide mt-12'>Owl<br></br>Learning Center</div>
               <p className='italic mt-6 text-xl'>Where Students Teach Students</p>
-              <button className="flex justify-center button p-6 bg-slate-500 mt-7 ml-36 rounded-xl text-black text-bold text-xl 
+              <button className="flex justify-center button pr-6 pl-6 pt-4 pb-4 bg-slate-500 mt-7 ml-36 rounded text-black text-bold text-xl 
                 transition ease-in-out delay-150 hover:-translate-y-1 hover:text-white">
                 <Link href="/howItWorks">Learn More</Link>
               </button>
@@ -39,7 +39,7 @@ const Home = () => {
             </div>
         </div>
 
-        <div className="bg-[#fff4ec]">
+        <div className="bg-eggshell">
         <div className="grid grid-cols-2 gap-4 divide-x py-10">
           <div>
             <div className="text-center text-4xl font-bold py-10 underline underline-offset-8">

@@ -14,8 +14,9 @@ const Home = () => {
       <div className="mb-auto">
         <Image src="/howItWorks.jpg" alt="HowItWorks" width={1920} height={500} />
       </div>
+      <div className='bg-eggshell'>
       <div className="text-center text-8xl font-bold h-30 my-10">How it Works</div>
-        <div className="container bg-gray-200 mx-auto w-full">
+        <div className="container bg-eggshell mx-auto w-full">
           <div className="relative wrap overflow-hidden p-10 h-full">
             <div className="border-2-2 absolute border-opacity-20 border-gray-700 h-full border left-1/2"></div>
             <div className="mb-8 flex justify-between items-center w-full right-timeline">
@@ -113,10 +114,11 @@ const Home = () => {
                 </p>
               </div>
             </div>
-
         </div>
+
       </div>
       <FAQ></FAQ>
+      </div>
       <Footer className="h-10"></Footer>
     </div>
   );

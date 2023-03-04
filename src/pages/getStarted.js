@@ -23,7 +23,7 @@ const Home = () => {
               <input
                 type="text"
                 placeholder="Type here"
-                className="input input-bordered w-full"
+                className="bg-[#ecf5fd] input input-bordered w-full"
               />
             </div>
             <div className="form-control mb-2">
@@ -33,7 +33,7 @@ const Home = () => {
               <input
                 type="text"
                 placeholder="Type here"
-                className="input input-bordered w-full"
+                className="bg-[#ecf5fd] input input-bordered w-full"
               />
             </div>
             <div className="form-control mb-4">
@@ -43,7 +43,7 @@ const Home = () => {
               <input
                 type="text"
                 placeholder="Type here"
-                className="input input-bordered w-full"
+                className="bg-[#ecf5fd] input input-bordered w-full"
               />
             </div>
             <hr></hr>
@@ -54,7 +54,7 @@ const Home = () => {
               <input
                 type="text"
                 placeholder="Type here"
-                className="input input-bordered w-full"
+                className="bg-[#ecf5fd] input input-bordered w-full"
               />
             </div>
             <div className="form-control mb-2">
@@ -64,7 +64,7 @@ const Home = () => {
               <input
                 type="text"
                 placeholder="Type here"
-                className="input input-bordered w-full"
+                className="bg-[#ecf5fd] input input-bordered w-full"
               />
             </div>
             <div className="form-control mb-2">
@@ -74,7 +74,7 @@ const Home = () => {
               <input
                 type="text"
                 placeholder="Type here"
-                className="input input-bordered w-full"
+                className="bg-[#ecf5fd] input input-bordered w-full"
               />
             </div>
             <div className='flex justify-center my-8'>
