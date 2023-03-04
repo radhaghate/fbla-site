@@ -13,7 +13,7 @@ const Home = () => {
     <div className='flex flex-col h-screen justify-between'>
       <Nav className='h-10'></Nav>
       <div className='text-center text-3xl font-bold mt-7'>Choose A Path</div>
-      <hr class="border-2 border-white-700 drop-shadow-xl mx-auto w-1/5 mt-5"/>
+      <hr className="border-2 border-white-700 drop-shadow-xl mx-auto w-1/5 mt-5"/>
         <div className='grid grid-rows-2 grid-cols-6 justify-center align-center align-middle m-auto mt-9 mb-9 ml-60 gap-6 h-auto'>
           <div className='col-start-1 col-span-2'>
             <div className='bg-sky-900 w-full h-full'>
