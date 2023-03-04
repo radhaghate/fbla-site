@@ -17,7 +17,7 @@ const Home = () => {
       <div className="text-center text-8xl font-bold h-30 my-10">How it Works</div>
         <div className="container bg-gray-200 mx-auto w-full">
           <div className="relative wrap overflow-hidden p-10 h-full">
-            <div class="border-2-2 absolute border-opacity-20 border-gray-700 h-full border left-1/2"></div>
+            <div className="border-2-2 absolute border-opacity-20 border-gray-700 h-full border left-1/2"></div>
             <div className="mb-8 flex justify-between items-center w-full right-timeline">
               <div className="order-1 w-5/12"></div>
               <div className="z-20 flex items-center order-1 bg-gray-800 shadow-xl w-8 h-8 rounded-full">

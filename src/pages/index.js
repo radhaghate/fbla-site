@@ -15,7 +15,7 @@ const Home = () => {
       <Nav></Nav>
       <div className="mb-auto">
         
-        <div className="relative bg-sky-800 w-full grid grid-cols-8 auto-rows-auto">
+        <div className="relative bg-[#0a3157] w-full grid grid-cols-8 auto-rows-auto">
             <div className="col-start-1 col-end-8"> 
               <Image className="mt-2" src="/home-top.jpg" alt="tutoring" height={900} width={1740}/>
             </div>
@@ -32,11 +32,14 @@ const Home = () => {
             
           </div>
 
-        <div className="bg-slate-500 text-2xl text-center text-bold text-white py-8">
-          As of 2022, there was a reported 78% loss in learning, due to Covid-19. That was only one
-          year ago.
+        <div className="bg-slate-500">
+          <div className='text-2xl text-right mr-44 text-bold text-white py-8'>
+            As of 2022, there was a reported 78% loss in learning due to Covid-19. That was only one
+            year ago.
+            </div>
         </div>
 
+        <div className="bg-[#fff4ec]">
         <div className="grid grid-cols-2 gap-4 divide-x py-10">
           <div>
             <div className="text-center text-4xl font-bold py-10 underline underline-offset-8">
@@ -83,7 +86,7 @@ const Home = () => {
 
         <div className="text-center text-4xl font-bold h-30 mt-6">Why Us?</div>
 
-        <hr class="border-2 border-white-700 drop-shadow-xl mx-auto w-1/2 mt-5"/>
+        <hr className="border-2 border-white-700 drop-shadow-xl mx-auto w-1/2 mt-5"/>
 
         <div className="grid grid-cols-3 gap-6 content-center p-10">
           <div data-aos="flip-down" className="card bg-base-100 shadow-xl">
@@ -127,6 +130,7 @@ const Home = () => {
         </div>
       </div>
       <Footer className="h-10"></Footer>
+    </div>
     </div>
   );
 };

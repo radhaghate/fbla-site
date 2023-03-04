@@ -13,6 +13,7 @@ const Home = () => {
   return (
     <div className='flex flex-col h-screen justify-between'>
       <Nav className='h-10'></Nav>
+      <div className='bg-[#fff4ec]'>
       <BlogSection1></BlogSection1>
       <hr className="border-2 border-white-700 drop-shadow-xl mx-auto w-3/5 mt-5"/>
       <BlogSection2></BlogSection2>
@@ -37,7 +38,7 @@ const Home = () => {
         </div>
         <div className='mr-64'><Image src="/resources-owlReading.png" alt="OLC Owl Reading" height={400} width={400}/></div>   {/* image here */}
       </div>
-
+      </div>
       <Footer className='h-10'></Footer>
     </div>
   );
