@@ -53,7 +53,7 @@ function Slide1(){
                 <a className="text-gray-800 hover:text-gray-600">- July 3, 2022</a>
                 </div>
                 <div className="title">
-                    <a className="text-3xl md:text-6xl font-bold text-gray-800 hover:text-gray-600">How Tutoring Can Help Your Child Succeed in School</a>
+                    <a className="text-3xl md:text-5xl font-bold text-gray-800 hover:text-gray-600">How Tutoring Can Help Your Child Succeed in School</a>
                 </div>
                 <p className="text-gray-500 py-3">
                     Parents all want their children to succeed in school and achieve their academic goals. But sometimes, students may struggle with certain subjects.
@@ -78,7 +78,7 @@ function Slide2(){
                 <a className="text-gray-800 hover:text-gray-600">- Nov 17, 2022</a>
                 </div>
                 <div className="title">
-                    <a className="text-3xl md:text-6xl font-bold text-gray-800 hover:text-gray-600">How to Help Your Child Overcome Test Anxiety</a>
+                    <a className="text-3xl md:text-5xl font-bold text-gray-800 hover:text-gray-600">How to Help Your Child Overcome Test Anxiety</a>
                 </div>
                 <p className="text-gray-500 py-3">
                 Test anxiety can be a significant obstacle for students, affecting their performance and overall well-being. 
@@ -103,7 +103,7 @@ function Slide3(){
                 <a className="text-gray-800 hover:text-gray-600">- Jan 23, 2023</a>
                 </div>
                 <div className="title">
-                    <a className="text-3xl md:text-6xl font-bold text-gray-800 hover:text-gray-600">Focus Tips for Students: How to Stay on Task and Boost Productivity</a>
+                    <a className="text-3xl md:text-5xl font-bold text-gray-800 hover:text-gray-600">Focus Tips for Students: Boosting Productivity</a>
                 </div>
                 <p className="text-gray-500 py-3">
                 For students, staying focused can be a challenge, especially when there are so many distractions and demands on their attention. 
