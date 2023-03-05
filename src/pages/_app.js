@@ -1,6 +1,12 @@
 import '@/styles/globals.css'
 import { useEffect } from 'react';
 import Aos from 'aos';
+import { Montserrat } from '@next/font/google';
+
+const montserrat = Montserrat({
+  subsets: ['latin'],
+  // weight: '400'
+})
 
 export default function App({ Component, pageProps }) {
 
@@ -11,5 +17,9 @@ export default function App({ Component, pageProps }) {
     });
   }, []);
 
-  return <Component {...pageProps} />
+  return (
+    <main className={montserrat.className}>
+      <Component {...pageProps} />
+    </main>
+  )
 }
