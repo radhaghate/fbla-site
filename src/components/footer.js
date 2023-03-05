@@ -2,7 +2,8 @@ import Head from 'next/head';
 import Image from 'next/image';
 import { Inter } from '@next/font/google';
 import styles from '@/styles/Home.module.css';
-import { BsBook } from 'react-icons/bs'
+import { BsBook } from 'react-icons/bs';
+import Link from 'next/link';
 
 const Footer = () => {
   return (
@@ -15,7 +16,7 @@ const Footer = () => {
             <br />
             Providing reliable services since 2023
           </p>
-          <p>Copyright © 2023 - All right reserved</p>
+          <p><Link href='/copyright'>Copyright © 2023 - All right reserved</Link></p>
         </div>
         <div className="grid grid-flow-col gap-4 content-center">
           <a>

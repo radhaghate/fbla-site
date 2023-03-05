@@ -8,14 +8,14 @@ import Link from 'next/link';
 const Testimonials = () => {
   return (
     <>
-      <section className="bg-white">
+      <section className="bg-[#e9f3fc]">
         <div className="mx-auto max-w-screen-xl px-4 py-16 sm:px-6 sm:py-24 lg:px-8">
-          <h2 className="text-center text-4xl font-bold tracking-tight sm:text-5xl">
+          <h2 className="text-center text-6xl font-bold tracking-tight sm:text-5xl">
             Read trusted reviews from parents
           </h2>
 
           <div className="mt-12 grid grid-cols-1 gap-4 md:grid-cols-3 md:gap-8">
-            <blockquote className="rounded-lg bg-gray-100 p-8">
+            <blockquote className="rounded-lg bg-[#daebfb] p-8">
               <div className="flex items-center gap-4">
                 {/* <img
                   alt="Man"
@@ -24,7 +24,7 @@ const Testimonials = () => {
                 /> */}
 
                 <div>
-                  <div className="flex justify-center gap-0.5 text-green-500">
+                  <div className="flex justify-center gap-0.5 text-orange-500">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       className="h-4 w-4"
@@ -62,17 +62,18 @@ const Testimonials = () => {
                     </svg>
                   </div>
 
-                  <p className="mt-1 text-lg font-medium text-gray-700">Paul Starr</p>
+                  <p className="mt-1 text-lg font-medium text-gray-700">Paul S.</p>
                 </div>
               </div>
 
-              <p className="line-clamp-2 sm:line-clamp-none mt-4 text-gray-500">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt voluptatem alias
-                ut provident sapiente repellendus.
+              <p className="line-clamp-2 sm:line-clamp-none mt-4 text-gray-600">
+              This tutoring center is amazing! My daughter struggled with math and reading, but since starting here, she has gained confidence and made amazing progress. 
+              The tutors are fantastic, and the curriculum is personalized. We are so grateful for this program.
               </p>
             </blockquote>
 
-            <blockquote className="rounded-lg bg-gray-100 p-8">
+            <blockquote className="rounded-lg bg-[#daebfb] p-8"> 
+            {/* bg-gray-100 */}
               <div className="flex items-center gap-4">
                 {/* <img
                   alt="Man"
@@ -81,7 +82,7 @@ const Testimonials = () => {
                 /> */}
 
                 <div>
-                  <div className="flex justify-center gap-0.5 text-green-500">
+                  <div className="flex justify-center gap-0.5 text-orange-500">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       className="h-4 w-4"
@@ -119,17 +120,17 @@ const Testimonials = () => {
                     </svg>
                   </div>
 
-                  <p className="mt-1 text-lg font-medium text-gray-700">Paul Starr</p>
+                  <p className="mt-1 text-lg font-medium text-gray-700">Adeline B.</p>
                 </div>
               </div>
 
-              <p className="line-clamp-2 sm:line-clamp-none mt-4 text-gray-500">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt voluptatem alias
-                ut provident sapiente repellendus.
+              <p className="line-clamp-2 sm:line-clamp-none mt-4 text-gray-600">
+              As a working parent, I was worried about finding a tutoring center that could accommodate my busy schedule. But this center was so flexible and accommodating, it made things so easy for us! My son loves going there. 
+              We feel like we have found a real partner in our child<span>&apos;</span>s education.
               </p>
             </blockquote>
 
-            <blockquote className="rounded-lg bg-gray-100 p-8">
+            <blockquote className="rounded-lg bg-[#daebfb] p-8">
               <div className="flex items-center gap-4">
                 {/* <img
                   alt="Man"
@@ -138,7 +139,7 @@ const Testimonials = () => {
                 /> */}
 
                 <div>
-                  <div className="flex justify-center gap-0.5 text-green-500">
+                  <div className="flex justify-center gap-0.5 text-orange-500">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       className="h-4 w-4"
@@ -176,13 +177,13 @@ const Testimonials = () => {
                     </svg>
                   </div>
 
-                  <p className="mt-1 text-lg font-medium text-gray-700">Paul Starr</p>
+                  <p className="mt-1 text-lg font-medium text-gray-700">Finley C.</p>
                 </div>
               </div>
 
-              <p className="line-clamp-2 sm:line-clamp-none mt-4 text-gray-500">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt voluptatem alias
-                ut provident sapiente repellendus.
+              <p className="line-clamp-2 sm:line-clamp-none mt-4 text-gray-600">
+              Initially skeptical about tutoring, this center exceeded my expectations. After a few sessions, my struggling son became more engaged, focused, and actually enjoyed going. 
+              We noticed a difference in his confidence and grades. Highly recommended!
               </p>
             </blockquote>
           </div>
