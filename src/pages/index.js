@@ -102,7 +102,7 @@ const Home = () => {
                 <div className="badge badge-success">1</div>
                 Teaching for Understanding
               </h2>
-              <p className='text-center'>With OLC's 1-on-1 tutoring sessions, your child can get 100% of our attention 100% of our time together. This way, we can truly make sure your child is learning the right concepts.</p>
+              <p className='text-center'>With OLC&aposs 1-on-1 tutoring sessions, your child can get 100% of our attention 100% of our time together. This way, we can truly make sure your child is learning the right concepts.</p>
             </div>
           </div>
 
