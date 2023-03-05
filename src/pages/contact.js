@@ -5,8 +5,10 @@ import styles from '@/styles/Home.module.css';
 import Nav from '../components/navbar';
 import Footer from '../components/footer';
 import { AiOutlineMail } from 'react-icons/ai';
-import { GoLocation } from 'react-icons/go'
-import { BsFillTelephoneOutboundFill } from 'react-icons/bs'
+import { GoLocation } from 'react-icons/go';
+import { BsFillTelephoneOutboundFill } from 'react-icons/bs';
+import Link from 'next/link';
+
 
 const inter = Inter({ subsets: ['latin'] });
 
@@ -37,10 +39,10 @@ const Home = () => {
                     <input
                       type="text"
                       placeholder="username@site.com"
-                      className="bg-[#ecf5fd] input input-bordered w-full pr-16"
+                      className="bg-[#ecf5fd] input input-bordered w-full pr-16 text-black"
                     />
                     <button className="btn btn-primary absolute top-0 right-0 rounded-l-none">
-                      Subscribe
+                      <Link href='/contact'>Subscribe</Link>
                     </button>
                   </div>
                 </div>
@@ -64,7 +66,7 @@ const Home = () => {
                 <input
                   type="text"
                   placeholder="First name"
-                  className="bg-[#ecf5fd] input input-bordered w-full"
+                  className="bg-[#ecf5fd] input input-bordered w-full text-black"
                 />
                 <label className="label">
                   <span className="label-text text-white">Last name</span>
@@ -72,7 +74,7 @@ const Home = () => {
                 <input
                   type="text"
                   placeholder="Last name"
-                  className="bg-[#ecf5fd] input input-bordered w-full"
+                  className="bg-[#ecf5fd] input input-bordered w-full text-black"
                 />
                 <label className="label">
                   <span className="label-text text-white">Email</span>
@@ -80,18 +82,18 @@ const Home = () => {
                 <input
                   type="text"
                   placeholder="username@site.com"
-                  className="bg-[#ecf5fd] input input-bordered w-full"
+                  className="bg-[#ecf5fd] input input-bordered w-full text-black"
                 />
                 <label className="label">
                   <span className="label-text text-white">Message</span>
                 </label>
                 <textarea
-                  className="bg-[#ecf5fd] textarea textarea-bordered h-24"
+                  className="bg-[#ecf5fd] textarea textarea-bordered h-24 text-black"
                   placeholder="Message"></textarea>
                 <br></br>
                 <div className="flex justify-center">
-                  <button className="button btn-active btn-[#ecf5fd] text-white text-bold text-xl h-10 w-2/4">
-                    Send! 
+                  <button className="button btn-active btn-[#ecf5fd] text-white text-bold text-xl h-10 w-2/4 hover:text-delfblue">
+                    <Link href='/contact'>Send!</Link>
                     {/* CHANGE COLOR OF BUTTON!!! */}
                   </button>
                 </div>

@@ -40,10 +40,10 @@ const Home = () => {
         </div>
 
         <div className="bg-eggshell">
-        <div className="grid grid-cols-2 gap-4 divide-x py-10">
+        <div className="grid grid-cols-2 gap-4 divide-x py-10 ">
           <div>
-            <div className="text-center text-4xl font-bold py-10 underline underline-offset-8">
-              The Mission
+            <div className="text-center text-3xl font-bold py-10 underline underline-offset-8">
+              THE MISSION
             </div>
             <div className="text-center px-12">
               We believe that every student is capable of achieving academic success, and we are
@@ -53,31 +53,35 @@ const Home = () => {
               obstacles.
             </div>
             <div className="w-full flex justify-center">
-              <button
-                className="button p-10 bg-sky-800 mt-12 rounded-xl text-white text-bold text-xl 
-                transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110">
+              {/* <button
+                className="btn p-8 bg-sky-800 mt-12 rounded-l text-white text-bold text-xl 
+                transition ease-in-out hover:-translate-y-1 hover:scale-110">
                 Explore Learning Paths
+              </button> */}
+              <button className="mt-12 w-72 p-8 text-bold text-xl text-white bg-oxfordblue100 
+                hover:text-black hover:bg-transparent text-l border border-transparent hover:border-black rounded-md" type="button">
+                  <Link href="/learningPaths">Explore Learning Paths</Link>
               </button>
             </div>
           </div>
-          <div>
-            <div className="text-center text-4xl font-bold py-10 underline underline-offset-8">
-              We get results.
+          <div className=''>
+            <div className="text-center text-3xl font-bold py-10 underline underline-offset-8">
+              WE GET RESULTS
             </div>
             <div className="px-12">
-              <div data-aos="zoom-in" className="card bg-black text-primary-content my-3">
+              <div data-aos="zoom-in" className="card bg-delfblue text-primary-content my-3">
                 <div className="card-body">
-                  <h2 className="card-title">90% improvement in reading</h2>
+                  <h2 className="card-title">94% of students saw an improvement in their test scores</h2>
                 </div>
               </div>
-              <div data-aos="zoom-in" className="card bg-black text-primary-content my-3">
+              <div data-aos="zoom-in" className="card bg-oxfordblue200 text-primary-content my-3">
                 <div className="card-body">
-                  <h2 className="card-title">90% improvement in maths</h2>
+                  <h2 className="card-title text-slate-300">90% of parents observed better reading skills in their children</h2>
                 </div>
               </div>
-              <div data-aos="zoom-in" className="card bg-black text-primary-content my-3">
+              <div data-aos="zoom-in" className="card bg-[#161925] text-primary-content my-3">
                 <div className="card-body">
-                  <h2 className="card-title">90% improvement in writing</h2>
+                  <h2 className="card-title">93% of students report feeling more confident in school</h2>
                 </div>
               </div>
             </div>
@@ -86,45 +90,45 @@ const Home = () => {
 
         <div className="text-center text-4xl font-bold h-30 mt-6">Why Us?</div>
 
-        <hr className="border-2 border-white-700 drop-shadow-xl mx-auto w-1/2 mt-5"/>
+        <hr className="border-0.5 border-oxfordblue100 drop-shadow-xl mx-auto w-1/2 mt-5"/>
 
         <div className="grid grid-cols-3 gap-6 content-center p-10">
           <div data-aos="flip-down" className="card bg-base-100 shadow-xl">
             <figure className="h-25">
-              <Image src="/home-understanding.jpg" alt="understanding" height={500} width={500} />
+              <Image src="/home-1on1.png" alt="understanding" height={500} width={500} />
             </figure>
             <div className="card-body">
               <h2 className="card-title">
                 <div className="badge badge-success">1</div>
                 Teaching for Understanding
               </h2>
-              <p>If a dog chews shoes whose shoes does he choose?</p>
+              <p className='text-center'>With OLC's 1-on-1 tutoring sessions, your child can get 100% of our attention 100% of our time together. This way, we can truly make sure your child is learning the right concepts.</p>
             </div>
           </div>
 
           <div data-aos="flip-down" className="card bg-base-100 shadow-xl">
             <figure className="h-25">
-              <Image src="/home-pace.webp" alt="pace" height={500} width={500} />
+              <Image src="/home-flexiblesched.jpg" alt="pace" height={500} width={500} />
             </figure>
             <div className="card-body">
               <h2 className="card-title">
                 <div className="badge badge-success">2</div>
                 Choose your pace
               </h2>
-              <p>If a dog chews shoes whose shoes does he choose?</p>
+              <p className='text-center'>Need tutoring one day per week? Two? Three? We have you covered. Based on your needs, OLC will create a personalized, flexible schedule to keep you on track.</p>
             </div>
           </div>
 
           <div data-aos="flip-down" className="card bg-base-100 shadow-xl">
             <figure className="h-25">
-              <Image src="/home-fun.png" alt="fun" height={500} width={500} />
+              <Image src="/home-location.jpg" alt="location" height={500} width={500} />
             </figure>
             <div className="card-body">
               <h2 className="card-title">
                 <div className="badge badge-success">3</div>
-                Have fun!
+                Pick Your Location
               </h2>
-              <p>If a dog chews shoes whose shoes does he choose?</p>
+              <p className='text-center'>At OLC, we recognize that getting around can be hard. Therefore, we offer multiple locations for our classes. Students are welcome to come to classes in-center, request sessions at their home, or work virtually.</p>
             </div>
           </div>
         </div>

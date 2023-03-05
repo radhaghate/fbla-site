@@ -23,11 +23,12 @@ const BlogSection1 = () => {
 
             <Swiper
                 slidesPerView={1}
-                // loop={true}
-                // autoplay= {{
-                //     delay: 2000
-                // }}
+                 loop={true}
+                 autoplay= {{
+                     delay: 4000
+                 }}
                 >
+                    
                 
                 <SwiperSlide>{ Slide1() }</SwiperSlide>
                 <SwiperSlide>{ Slide2() }</SwiperSlide>
