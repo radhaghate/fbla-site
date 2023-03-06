@@ -81,8 +81,8 @@ const Home = () => {
 
         <div className="w-3/5 mx-auto">
           <div className="grid grid-cols-2 py-8">
-            <div data-aos="fade-right" className="pl-6">
-              <Image src="/math-learning.jpg" alt="HowItWorks" height={300} width={500} />
+            <div data-aos="fade-right" className="pl-6 mt-4">
+              <Image src="/math-ages12-15.jpg" alt="HowItWorks" height={300} width={500} />
             </div>
             <div data-aos="fade-left" className="pr-6">
               <div className="text-center text-4xl font-bold py-8">Ages 12-15</div>
@@ -105,7 +105,7 @@ const Home = () => {
               </div>
               </div>
               <div data-aos="fade-left" className="pl-6 ">
-                <Image src="/math-learning.jpg" alt="HowItWorks" height={300} width={500} />
+                <Image src="/math-reallife.png" alt="HowItWorks" height={300} width={500} />
               </div>
             </div>
           </div>

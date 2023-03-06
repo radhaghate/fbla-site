@@ -130,7 +130,6 @@ const Home = () => {
                 <div className="flex justify-center">
                   <button onClick={onc} className="button btn-active btn-[#ecf5fd] text-white text-bold text-xl h-10 w-2/4 hover:text-delfblue">
                     Send!
-                    {/* CHANGE COLOR OF BUTTON!!! */}
                   </button>
                 </div>
               </div>
