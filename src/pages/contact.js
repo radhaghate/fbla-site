@@ -8,11 +8,39 @@ import { AiOutlineMail } from 'react-icons/ai';
 import { GoLocation } from 'react-icons/go';
 import { BsFillTelephoneOutboundFill } from 'react-icons/bs';
 import Link from 'next/link';
+import { useState } from 'react';
 
 
 const inter = Inter({ subsets: ['latin'] });
 
 const Home = () => {
+
+  const [message1, setMessage1] = useState("");
+  const [message2, setMessage2] = useState("");
+  const [message3, setMessage3] = useState("");
+  const [message4, setMessage4] = useState("");
+
+  const handleChange1 = (event) => {
+    setMessage1(event.target.value);
+  };
+
+  const handleChange2 = (event) => {
+    setMessage2(event.target.value);
+  };
+  const handleChange3 = (event) => {
+    setMessage3(event.target.value);
+  };
+  const handleChange4 = (event) => {
+    setMessage4(event.target.value);
+  };
+
+  const onc = () => {
+    setMessage1("")
+    setMessage2("")
+    setMessage3("")
+    setMessage4("")
+  }
+
   return (
     <div className="flex flex-col h-screen justify-between">
       <Nav></Nav>
@@ -66,6 +94,8 @@ const Home = () => {
                 <input
                   type="text"
                   placeholder="First name"
+                  onChange={handleChange1}
+                  value={message1}
                   className="bg-[#ecf5fd] input input-bordered w-full text-black"
                 />
                 <label className="label">
@@ -74,6 +104,8 @@ const Home = () => {
                 <input
                   type="text"
                   placeholder="Last name"
+                  onChange={handleChange2}
+                  value={message2}
                   className="bg-[#ecf5fd] input input-bordered w-full text-black"
                 />
                 <label className="label">
@@ -82,6 +114,8 @@ const Home = () => {
                 <input
                   type="text"
                   placeholder="username@site.com"
+                  onChange={handleChange3}
+                  value={message3}
                   className="bg-[#ecf5fd] input input-bordered w-full text-black"
                 />
                 <label className="label">
@@ -89,11 +123,13 @@ const Home = () => {
                 </label>
                 <textarea
                   className="bg-[#ecf5fd] textarea textarea-bordered h-24 text-black"
-                  placeholder="Message"></textarea>
+                  placeholder="Message"
+                  onChange={handleChange4}
+                  value={message4}></textarea>
                 <br></br>
                 <div className="flex justify-center">
-                  <button className="button btn-active btn-[#ecf5fd] text-white text-bold text-xl h-10 w-2/4 hover:text-delfblue">
-                    <Link href='/contact'>Send!</Link>
+                  <button onClick={onc} className="button btn-active btn-[#ecf5fd] text-white text-bold text-xl h-10 w-2/4 hover:text-delfblue">
+                    Send!
                     {/* CHANGE COLOR OF BUTTON!!! */}
                   </button>
                 </div>
