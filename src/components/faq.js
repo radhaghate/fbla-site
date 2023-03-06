@@ -9,7 +9,7 @@ const FAQ = () => {
       <div className="text-center text-5xl font-bold h-30 my-8">Frequently Asked Questions</div>
       <div
         tabIndex={0}
-        className="collapse collapse-plus border border-base-300 bg-base-100 rounded-box my-2 mx-5">
+        className="collapse collapse-plus border border-base-300 bg-slate-200 rounded-box my-2 mx-5">
         <div className="collapse-title text-xl font-medium">How much do classes at Owl Learning Center cost?</div>
         <div className="collapse-content">
           <p>The pricing for classes at this learning center varies depending on the specific program and services being offered, especially since we have various locations and schedule options. 
@@ -18,7 +18,7 @@ const FAQ = () => {
       </div>
       <div
         tabIndex={1}
-        className="collapse collapse-plus border border-base-300 bg-base-100 rounded-box my-2 mx-5">
+        className="collapse collapse-plus border border-base-300 bg-slate-200 rounded-box my-2 mx-5">
         <div className="collapse-title text-xl font-medium">Who are the instructors?</div>
         <div className="collapse-content">
           <p>Although supervised by a professional, our instructors are mainly other students, from high school juniors and seniors to college graduates. After conducting the student<span>&apos;</span>s placement test, we will match them with a personal instructor. 
@@ -27,7 +27,7 @@ const FAQ = () => {
       </div>
       <div
         tabIndex={2}
-        className="collapse collapse-plus border border-base-300 bg-base-100 rounded-box my-2 mx-5">
+        className="collapse collapse-plus border border-base-300 bg-slate-200 rounded-box my-2 mx-5">
         <div className="collapse-title text-xl font-medium">Is OLC for advanced or struggling students?</div>
         <div className="collapse-content">
           <p>Both! We welcome all students who are ready to learn. If your child is struggling in school, we will do our best to quickly get them up to speed.

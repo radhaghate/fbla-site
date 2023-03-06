@@ -58,7 +58,7 @@ const Home = () => {
         </div>
 
         {/* END OF SECTION 1 TOPICS */}
-        <div className="w-full h-24 bg-sky-700 text-white text-center text-xl pt-8">
+        <div className="w-full h-24 bg-[#385c92] text-white text-center text-xl pt-8">
           Do not let your student fall behind. Owl Learning Center can take your child beyond.
         </div>
 
@@ -66,15 +66,10 @@ const Home = () => {
           <div className="w-3/5 mx-auto">
             <div className="grid grid-cols-2 py-8">
               <div data-aos="fade-right" className="pr-6">
-                <div className="text-center text-4xl font-bold py-8">Ages 5-8</div>
-                <div className="text-center text-2xl font-bold pb-4">Give your child a headstart.</div>
+                <div className="text-center text-4xl font-bold py-8">Ages 8-12</div>
+                <div className="text-center text-2xl font-bold pb-4">Develop A Love for Learning.</div>
                 <div className='text-center'>
-                  Through the Kumon Math Program, preschoolers start out by counting objects and
-                  learning the number sequence before learning to write numbers, all at an
-                  individualized and comfortable pace. These skills provide a strong foundation for
-                  learning basic addition and subtraction. You’ll watch your child develop mental
-                  calculation skills, improve concentration ability and boost critical thinking
-                  skills. You’ll wa
+                  Our experienced instructors use a variety of interactive and hands-on approaches to make learning come alive, helping students explore new subjects and discover their passions. Whether your child is struggling in school or simply looking for an extra challenge, our learning center can help them build confidence, improve academic performance, and cultivate a lifelong love for math and reading.
                 </div>
               </div>
               <div data-aos="fade-left" className="pl-6 ">
@@ -90,15 +85,10 @@ const Home = () => {
               <Image src="/math-learning.jpg" alt="HowItWorks" height={300} width={500} />
             </div>
             <div data-aos="fade-left" className="pr-6">
-              <div className="text-center text-4xl font-bold py-8">Ages 6-12</div>
-              <div className="text-center text-2xl font-bold pb-4">Give your child a headstart.</div>
+              <div className="text-center text-4xl font-bold py-8">Ages 12-15</div>
+              <div className="text-center text-2xl font-bold pb-4">Learning Beyond School.</div>
               <div className='text-center ml-8'>
-                Through the Kumon Math Program, preschoolers start out by counting objects and
-                learning the number sequence before learning to write numbers, all at an
-                individualized and comfortable pace. These skills provide a strong foundation for
-                learning basic addition and subtraction. You’ll watch your child develop mental
-                calculation skills, improve concentration ability and boost critical thinking
-                skills.
+              We believe that education should be dynamic, relevant, and personalized to the needs and interests of each student, and we strive to create a supportive and stimulating environment that fosters intellectual curiosity, creativity, and critical thinking beyond the classroom. Our instructors teach with the goal of helping students develop a deeper understanding of the world and their place in it.
               </div>
             </div>
           </div>
@@ -108,15 +98,10 @@ const Home = () => {
           <div className="w-3/5 mx-auto">
             <div className="grid grid-cols-2 py-8">
               <div data-aos="fade-right" className="pr-6">
-                <div className="text-center text-4xl font-bold py-8">Ages 13+</div>
-                <div className="text-center text-2xl font-bold pb-4">Give your child a headstart.</div>
+                <div className="text-center text-4xl font-bold py-8">Ages 15+</div>
+                <div className="text-center text-2xl font-bold pb-4">Real World Problem Solving.</div>
                 <div className='text-center'>
-                  Through the Kumon Math Program, preschoolers start out by counting objects and
-                  learning the number sequence before learning to write numbers, all at an
-                  individualized and comfortable pace. These skills provide a strong foundation for
-                  learning basic addition and subtraction. You’ll watch your child develop mental
-                  calculation skills, improve concentration ability and boost critical thinking
-                  skills.
+                Education should prepare students not only for academic success but also for the complexities of the modern world. Whether your child is preparing for college or pursuing a career, our learning center can help them become a confident and effective problem solver, equipped with the skills and knowledge to make a positive impact in the world.
               </div>
               </div>
               <div data-aos="fade-left" className="pl-6 ">

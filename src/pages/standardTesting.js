@@ -55,7 +55,7 @@ const Home = () => {
         </div>
 
         {/* END OF SECTION 1 TOPICS */}
-        <div className="w-full h-24 bg-sky-700 text-white text-center text-xl pt-8">
+        <div className="w-full h-24 bg-[#385c92] text-white text-center text-xl pt-8">
           Do not let your student fall behind. Owl Learning Center can take your child beyond.
         </div>
 

@@ -23,7 +23,7 @@ const Home = () => {
             <div className="absolute right-28 mt-28 text-center text-white bg-oxfordblue100 
               align-middle h-96 w-4/5 col-start-6 col-end-9 pt-8 rounded-md">
               <div className='text-4xl font-bold text-center tracking-wide mt-12'>Owl<br></br>Learning Center</div>
-              <p className='italic mt-6 text-xl'>Where Students Teach Students</p>
+              <p className='italic mt-4 text-xl'>Where Students Teach Students</p>
               <button className="flex justify-center button pr-6 pl-6 pt-4 pb-4 bg-slate-500 mt-7 ml-36 rounded text-black text-bold text-xl 
                 transition ease-in-out delay-150 hover:-translate-y-1 hover:text-white">
                 <Link href="/howItWorks">Learn More</Link>

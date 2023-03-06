@@ -16,7 +16,7 @@ const Home = () => {
         <Image src="/howItWorks.jpg" alt="HowItWorks" width={1920} height={500} />
       </div>
       <div className='bg-eggshell'>
-      <div className="text-center text-6xl font-bold h-30 my-10">How it Works</div>
+      <div className="text-center text-6xl font-bold h-30 my-10">How It Works</div>
       <div className='text-center text-xl h-30 my-10'>At Owl Learning Center, we work to serve you. 
       See how you can get started in three easy steps.</div>
         
@@ -42,11 +42,11 @@ const Home = () => {
               <div className="z-20 flex items-center order-1 bg-gray-800 shadow-xl w-8 h-8 rounded-full">
                 <h1 className="mx-auto text-white font-semibold text-lg">2</h1>
               </div>
-              <div data-aos="fade-right" className="order-1 bg-sky-400 rounded-lg shadow-xl w-5/12 px-6 py-4">
-                <h3 className="mb-3 font-bold text-white text-xl">Take a Placement Test</h3>
+              <div data-aos="fade-right" className="order-1 bg-delfblue rounded-lg shadow-xl w-5/12 px-6 py-4">
+                <h3 className="mb-3 font-bold text-slate-300 text-xl">Take a Placement Test</h3>
                 <p className="text-sm font-medium leading-snug tracking-wide text-white text-opacity-100">
-                    At your appointment, we provide a diagnostic skills assessment to identify any gaps in your child<span>&apos;</span>s knowledge and create a personalized learning plan for them. 
-                    This assessment will include questions at your child<span>&apos</span>s expected level which will help us gauge how to proceed.
+                    At your appointment, we will provide a diagnostic skills assessment to identify what your child needs from us. Next, we will create a personalized learning plan for them. 
+                    This assessment will include questions based on the learning path you have chosen.
                 </p>
               </div>
             </div>
